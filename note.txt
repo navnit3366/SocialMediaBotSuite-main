@@ -1,0 +1,15 @@
+To upload a Telegram bot on PythonAnywhere and keep it active forever, follow these steps:
+
+1. Visit https://www.pythonanywhere.com and create an account or log in if you already have one.
+2. After logging in, navigate to the following URL: https://www.pythonanywhere.com/user/MohamadSaleh/files/home/MohamadSaleh
+3. Upload your bot file to this location.
+4. Next, go to the following URL: https://www.pythonanywhere.com/user/MohamadSaleh/consoles/24479446/
+5. Choose the "Bash" option to create a dedicated console for your bot.
+6. In the console, install the required modules by running the following commands:
+   ```
+   pip3 install telegram --user fred
+   pip install python-telegram-bot --user fred
+   ```
+7. Once the modules are installed, you can proceed with running your bot.
+
+Remember to replace "MohamadSaleh" in the URLs with your actual username on PythonAnywhere, and make sure to use the correct version of Python (e.g., `pip3` for Python 3).
